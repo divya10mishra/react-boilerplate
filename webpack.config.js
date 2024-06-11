@@ -2,7 +2,7 @@ const path = require('path');
 const htmlPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  entry: path.join(__dirname,"src","index.js"), // Entry point of your application
+  entry: path.join(__dirname,"src","App.js"), // Entry point of your application
   output: {
     path: path.resolve(__dirname, 'dist'), // Output directory
     filename: 'index.bundle.js' // Output file name
